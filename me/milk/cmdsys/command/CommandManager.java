@@ -15,9 +15,10 @@ public class CommandManager {
 	Map<String, Command> commands = new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
 	
 	/**
-	 * The method used to initialize the Command-Manager
+	 * Called upon initialization of the Command-Manager
 	 */
-	public CommandManager() { /* Should be called from your Client startup function */
+	public CommandManager() {
+		/*add your commands here*/
 		add("helloworld", new HelloWorld());
 	}
 	
