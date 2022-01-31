@@ -1,4 +1,4 @@
-# supreme-waffle
+# simple-command-system
 a simple command manager for minecraft
 
 ### How to use
